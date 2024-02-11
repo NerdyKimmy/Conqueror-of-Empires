@@ -1,0 +1,9 @@
+root - ERROR - caught at main
+Traceback (most recent call last):
+  File "C:\Users\Kimmy\Desktop\Conqueror of Empires\main.py", line 8, in <module>
+    import project.control as control
+  File "C:\Users\Kimmy\Desktop\Conqueror of Empires\project\control\__init__.py", line 1, in <module>
+    from project.control.controller import *
+  File "C:\Users\Kimmy\Desktop\Conqueror of Empires\project\control\controller.py", line 4, in <module>
+    import pygame
+ModuleNotFoundError: No module named 'pygame'
